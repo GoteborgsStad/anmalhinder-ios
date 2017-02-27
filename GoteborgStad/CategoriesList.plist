@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Belysning</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Dörr – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Dörr – Tung</string>
+			<string>Dörr – Trång</string>
+			<string>Dörr – Kontrast</string>
+			<string>Dörr – Tröskel</string>
+			<string>Dörr – Dörröppnare</string>
+			<string>Dörr – Annat</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Fast inredning – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Fast inredning – Saknar kontrastmarkering</string>
+			<string>Fast inredning – Placering</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Gångbana</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Hållplats</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Kontrastmarkering</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ledstråk</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ledstång</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Lekplats</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ljudmiljö</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Möblering</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Nivåskillnad – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Nivåskillnad – Trappsteg</string>
+			<string>Nivåskillnad – Lutning</string>
+			<string>Nivåskillnad – Kant</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Passage – Trång</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>P-plats för rörelsehindrade</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ramp – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Ramp – Inomhus</string>
+			<string>Ramp – Utomhus</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Reception – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Reception – Teleslinga</string>
+			<string>Reception – Låg disk saknas</string>
+			<string>Reception – Belysning</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Skyltning</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Avskärmning dagsljus</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sittplats – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Sittplats – Inomhus</string>
+			<string>Sittplats – Utomhus</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Skyltning – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Skyltning – Taktil</string>
+			<string>Skyltning – Punktskrift</string>
+			<string>Skyltning – Symbol</string>
+			<string>Skyltning – Textstorlek</string>
+			<string>Skyltning – Kontrast</string>
+			<string>Skyltning – Placering</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Teleslinga</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Toalett inomhus – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Toalett inomhus – Inredning</string>
+			<string>Toalett inomhus – Kontrastmarkering</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Toalettbyggnad – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Toalettbyggnad – Inredning</string>
+			<string>Toalettbyggnad – Kontrastmarkering</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Trottoar – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Trottoar – Ränndal</string>
+			<string>Trottoar – Ojämn mark</string>
+			<string>Trottoar – Hög kant</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Tröskel</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Trappa – Flerval</string>
+		<key>sub_cats</key>
+		<array>
+			<string>Trappa – Inomhus</string>
+			<string>Trappa – Utomhus</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Varningsmarkering</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Övergångsställe</string>
+		<key>sub_cats</key>
+		<array/>
+	</dict>
+</array>
+</plist>
