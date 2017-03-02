@@ -20,6 +20,7 @@
     [anmalBgView setBackgroundColor:SplashBlueColor];
     [infoButton setBackgroundColor:BtnBgColor];
     
+    
     if (IS_IPHONE_4_OR_LESS) {
         [formScroll setContentSize:CGSizeMake(320, 568)];
     }
