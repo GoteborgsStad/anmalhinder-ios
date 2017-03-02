@@ -13,7 +13,7 @@
 {
     IBOutlet UILabel *headerLabel;
     IBOutlet UIScrollView *formScroll;
-    IBOutlet UIButton *linkBtn;
+    IBOutlet UIButton *linkBtn, *githubBtn;
 }
 
 

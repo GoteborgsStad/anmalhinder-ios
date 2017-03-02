@@ -17,6 +17,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InfoViewController">
             <connections>
                 <outlet property="formScroll" destination="HyV-x7-aB3" id="tzz-Uz-djY"/>
+                <outlet property="githubBtn" destination="KA1-jb-Xyo" id="xXt-bg-jTE"/>
                 <outlet property="headerLabel" destination="Czy-G0-jPh" id="Uft-qh-tec"/>
                 <outlet property="linkBtn" destination="Gdr-eL-jAg" id="9Dp-sn-UIA"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -59,22 +60,23 @@
                             <rect key="frame" x="10" y="80" width="300" height="440"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="egS-pv-VPZ">
-                                    <rect key="frame" x="7" y="0.0" width="290" height="400"/>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" id="oR9-FC-jhK">
+                                    <rect key="frame" x="2" y="0.0" width="290" height="415"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <mutableString key="text">Med den här appen anmäler du brister i användbarheten i offentlig miljö och publika lokaler. Sveriges lag kallar sådana brister för ”enkelt avhjälpta hinder”. Du hjälper Göteborg Stad att följa lagen när du anmäler ett hinder.
 Det är Göteborgs Stads ansvar att avgöra vad som är ett enkelt avhjälpt hinder. Det är fastighetsägarens ansvar att åtgärda hindret.
 
 
 
-Appen har en öppen källkod/open source. (länka ”öppen källkod”)
+
+
 Öppen källkod innebär att vem som helst fritt får kopiera appen eller utveckla den vidare. Publicera gärna det nya som öppen källkod så fler får ta del av appens vidareutveckling.</mutableString>
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="wordWrap" id="Gdr-eL-jAg">
-                                    <rect key="frame" x="7" y="207" width="290" height="40"/>
+                                    <rect key="frame" x="7" y="202" width="290" height="40"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                     <state key="normal">
@@ -89,6 +91,22 @@ Appen har en öppen källkod/open source. (länka ”öppen källkod”)
                                     </state>
                                     <connections>
                                         <action selector="linkButtonTapped" destination="-1" eventType="touchUpInside" id="efa-VP-XIZ"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="wordWrap" id="KA1-jb-Xyo">
+                                    <rect key="frame" x="7" y="254" width="290" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="Appen har en öppen källkod/open source.">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <string key="title">•	Läs mer om definitionen av enkelt avhjälpta hinder.
+</string>
+                                        <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="githubBtnTapped" destination="-1" eventType="touchUpInside" id="2nE-gS-S7s"/>
                                     </connections>
                                 </button>
                             </subviews>

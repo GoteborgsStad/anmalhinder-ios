@@ -27,6 +27,7 @@
 
 -(void)setAttributedText
 {
+    
     NSString *linkStr = @"•	Läs mer om definitionen av enkelt avhjälpta hinder.";
 
     NSMutableAttributedString *normalStateText = [[NSMutableAttributedString alloc] initWithString:linkStr];
@@ -47,6 +48,28 @@
     [highlightedStateText addAttribute:NSForegroundColorAttributeName value:[UIColor blueColor] range:NSMakeRange(0, [highlightedStateText length])];
     [linkBtn setAttributedTitle:highlightedStateText forState:UIControlStateHighlighted];
 
+    
+    
+    NSString *githubStr = @"Appen har en öppen källkod/open source.";
+    
+    NSMutableAttributedString *gitNormalStateText = [[NSMutableAttributedString alloc] initWithString:githubStr];
+//    [gitNormalStateText addAttribute:NSUnderlineStyleAttributeName
+//                            value:@1
+//                            range:NSMakeRange(2, [gitNormalStateText length]-2)];
+    [gitNormalStateText addAttribute:NSForegroundColorAttributeName value:[UIColor blackColor] range:NSMakeRange(0, [gitNormalStateText length])];
+    [gitNormalStateText addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:15.0] range:NSMakeRange(0, [gitNormalStateText length])];
+    [githubBtn setAttributedTitle:gitNormalStateText forState:UIControlStateNormal];
+    
+    
+    NSMutableAttributedString *gitHighlightedStateText = [[NSMutableAttributedString alloc] initWithString:githubStr];
+//    [gitHighlightedStateText addAttribute:NSUnderlineStyleAttributeName
+//                                 value:@1
+//                                 range:NSMakeRange(2, [gitHighlightedStateText length]-2)];
+    [gitHighlightedStateText addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:15.0] range:NSMakeRange(0, [gitHighlightedStateText length])];
+    
+    [gitHighlightedStateText addAttribute:NSForegroundColorAttributeName value:[UIColor blueColor] range:NSMakeRange(0, [gitHighlightedStateText length])];
+    [githubBtn setAttributedTitle:gitHighlightedStateText forState:UIControlStateHighlighted];
+    
 }
 
 
@@ -59,6 +82,11 @@
 -(IBAction)linkButtonTapped
 {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.boverket.se/sv/byggande/tillganglighet--bostadsutformning/tillganglighet/enkelt-avhjalpta-hinder/"]];
+}
+
+-(IBAction)githubBtnTapped
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/avenyproduction/Goteborg-Stad---Anmal-hinder-app"]];
 }
 
 
